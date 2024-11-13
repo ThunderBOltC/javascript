@@ -60,3 +60,34 @@ console.log(null >= 0)
 //* === strict check ***//
 console.log("2" === 2); //cause the datatypes are different
 
+
+// primitive and non-primitive //
+
+// 7type of primitives( called by value)
+
+// String, Number, Boolean, null, undefined, Symbol, BigInt
+
+//Non primitive (reference type)
+// arrays, objects, Functions,
+
+
+const id = Symbol('123')
+const anotherId = Symbol('1234')
+console.log(id === anotherId); //will be false
+const bigNumber = 56166165465461616;
+const heros = ["deadpool", "wolvarine", "22"];
+let myObj = {
+    name: "hitesh",
+    age: "22",
+}
+
+let obj2 = {
+    name: "chandan",
+    age: "23",
+}
+const myFunction = function () {
+    console.log(myObj);
+}
+console.log(typeof myFunction)// functions
+console.log(typeof myObj) //object
+console.log(obj2)
