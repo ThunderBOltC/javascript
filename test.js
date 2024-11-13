@@ -9,3 +9,10 @@ console.table([accountId, accountPass, accoutEmail, accountCity,cyd])
 /*
 never use var only use let
 */
+console.log(3 + 2)
+let name = "chandan"
+let age = 23
+let isLogged = false
+let ageF 
+console.table([name, age, isLogged, ageF])
+console.log(typeof age)
