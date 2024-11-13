@@ -50,3 +50,13 @@ gameCounter++
 console.log(gameCounter++);//101
 console.log(++gameCounter);//103
 console.log(gameCounter)//103
+
+//** comparison of datatypes ****//
+
+console.log(null > 0)
+console.log(null == 0)
+console.log(null >= 0)
+
+//* === strict check ***//
+console.log("2" === 2); //cause the datatypes are different
+
