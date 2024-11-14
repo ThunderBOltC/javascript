@@ -144,3 +144,18 @@ console.log(anothernumber.toPrecision(3));
 
 const hundreds = 100000000
 console.log(hundreds.toLocaleString('en-IN'))
+
+
+// ********* MATHs **************//
+
+console.log(Math.PI.toFixed(4)); //3.1416
+console.log(Math.abs(-4)); //4
+console.log(Math.round(4.6)) //5
+console.log(`minimum value ${ Math.min(4, 5, 6, 7, 4, 3)}`);
+
+console.log(Math.random()+100);
+
+const min = 1
+const max = 20
+console.log(Math.floor(Math.random() * (max - min + 1) + min))
+
