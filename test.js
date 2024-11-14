@@ -124,7 +124,6 @@ console.log(gameName.toLowerCase()); //ludo
 console.log(gameName.charAt(2)) //D
 console.log(Name.substring(0, 5))
 console.log(Name.substring(-9, 6));// minus will be 0 automatically, thunde
-
 let trimmer = "   abcdefghijklmnopqrstuvwxyz  "
 console.log(trimmer);
 console.log(trimmer.trim());// white space in both end will vanish
@@ -134,3 +133,14 @@ console.log(url)
 
 console.log(url.replace('%20', '-'));
 
+// **************** Number ***********//
+const mark = 400
+const balance = new Number(112100.0394324329)
+console.log(balance.toFixed(2))
+
+const anothernumber = 3781.564656;
+console.log(anothernumber.toPrecision(5)) 
+console.log(anothernumber.toPrecision(3));
+
+const hundreds = 100000000
+console.log(hundreds.toLocaleString('en-IN'))
