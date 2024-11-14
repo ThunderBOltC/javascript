@@ -91,3 +91,23 @@ const myFunction = function () {
 console.log(typeof myFunction)// functions
 console.log(typeof myObj) //object
 console.log(obj2)
+
+//        Memory alloaction in js //
+
+// stack(Primitive) and heap memory(nonPrimitive)
+
+let myname = "thunderboltc" // this will be stored in stack
+
+let anotheName = myname
+anotherName = "chandan"
+console.log(myname); // not changed cause there was a copy made for the anotherName
+
+let student = {
+    email: "student12@gmail.com",
+    password: "admin"
+
+}
+let student2 = student
+student2.password = "amarachewater" //this will change the student as the memory reference was copied
+//heap e sudhu reference jabe
+console.log(student);
