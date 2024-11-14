@@ -111,3 +111,26 @@ let student2 = student
 student2.password = "amarachewater" //this will change the student as the memory reference was copied
 //heap e sudhu reference jabe
 console.log(student);
+
+
+//    ****** String ***********//
+const Name = "thunderboltc"
+const repocount = 50
+console.log(Name+repocount);
+console.log(`hello my name is ${Name} and my repository is ${repocount}`);
+const gameName = new String('LUDO')
+console.log(gameName.length) //length will be 4
+console.log(gameName.toLowerCase()); //ludo
+console.log(gameName.charAt(2)) //D
+console.log(Name.substring(0, 5))
+console.log(Name.substring(-9, 6));// minus will be 0 automatically, thunde
+
+let trimmer = "   abcdefghijklmnopqrstuvwxyz  "
+console.log(trimmer);
+console.log(trimmer.trim());// white space in both end will vanish
+const url = "https://chandan%20hembrom.com"
+console.log(url)
+
+
+console.log(url.replace('%20', '-'));
+
